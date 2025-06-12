@@ -1,0 +1,6 @@
+@EmissionDatarecordService_HostAddress = https://localhost:5255
+
+GET {{EmissionDatarecordService_HostAddress}}/EmissionData/
+Accept: application/json
+
+###
