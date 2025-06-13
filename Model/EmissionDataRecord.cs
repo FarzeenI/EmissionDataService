@@ -6,14 +6,14 @@ namespace EmissionDataRecordService.Model
 {
     public class EmissionDataRecord
     {
-        public string Material_Hierarchy_Model_Node_Name { get; set; } = string.Empty;
-        public string Material_Hierarchy_Parent_Hierarchy_Identifier { get; set; } = string.Empty;
+        public string Material_Hierarchy_Model_Node_Name { get; set; }  
+        public string Material_Hierarchy_Parent_Hierarchy_Identifier { get; set; }  
 
-        public string Material_Number { get; set; } = string.Empty;
-        public string Iso_Country_Code { get; set; } = string.Empty;
+        public string Material_Number { get; set; }  
+        public string Iso_Country_Code { get; set; }  
 
         public int Category_ID { get; set; }
-        public string Category_Name { get; set; } = string.Empty; 
+        public string Category_Name { get; set; }  
        
         public DateTime Source_Create_Timestamp { get; set; }
         public bool Logical_Deletion_Indicator { get; set; }
